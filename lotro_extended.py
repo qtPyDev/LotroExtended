@@ -81,7 +81,7 @@ def set_lotroextended_settings(lotro_ext_settings):
 
 def create_lotro_extended_win(settings):
     win = tk.Tk()
-    win.title('Setup LOTRO Extended')
+    win.title(config.TOOL_NAME)
     win.geometry('400x160')
     win.resizable(False, False)
 

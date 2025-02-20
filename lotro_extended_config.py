@@ -3,6 +3,9 @@
 
 import os
 
+TOOL_VERSION = 'v1.0.0'
+TOOL_NAME = f'Setup LotroExtended [{TOOL_VERSION}]'
+
 GAMENAME = 'The Lord of the Rings Online'
 COMPANY = 'StandingStoneGames'
 DOCUMENTS = os.path.expanduser('~/OneDrive/Documents')
